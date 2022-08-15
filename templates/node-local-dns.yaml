@@ -98,7 +98,7 @@ data:
         reload
         loop
         bind {{ .Values.localdns }} {{ $kubedns }}
-        forward . __PILLAR__UPSTREAM__SERVERS__
+        forward . 8.8.8.8 4.4.8.8 
         prometheus :9253
         }
 ---
