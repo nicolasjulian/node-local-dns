@@ -2,4 +2,4 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 domain: cluster.local
-localdns: 169.254.69.69
+localdns: 169.254.25.10
